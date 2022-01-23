@@ -1,0 +1,9 @@
+*
+!bot/
+!entrypoint.sh
+!fill_db_with_sample_data.py
+!Pipfile
+!Pipfile.lock
+!requirements.txt
+!wait-for-it.sh
+**/__pycache__/

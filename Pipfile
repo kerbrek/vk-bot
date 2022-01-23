@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asyncpg = "==0.25.*"
+sqlalchemy = "==1.4.*"
+vkwave = "==0.2.*"
+
+[dev-packages]
+autopep8 = "==1.6.*"
+pylint = "==2.12.*"
+
+[requires]
+python_version = "3.9"
