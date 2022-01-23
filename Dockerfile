@@ -37,8 +37,6 @@ ENV PATH="/app/venv/bin:$PATH"
 
 COPY --chown=app:app . /app
 
-EXPOSE 8000
-
 ENTRYPOINT ["/app/entrypoint.sh"]
 
 CMD ["python", "-m", "bot.main"]
