@@ -10,7 +10,6 @@ setup:
 
 .PHONY: prepare-files # Copy '.env.example' file to '.env'
 prepare-files:
-	@mkdir -p ENV
 	@echo Copying files...
 	@cp --verbose .env.example .env
 	@echo Do not forget to modify:
